@@ -1,0 +1,62 @@
+# String Title = driver.getTitle();
+# System.out.println("Title of the webpage = " +Title);
+# assertEquals(Title,"Google");
+#
+#
+#     public boolean verifyTitle(String expectedTitle) {
+#         return getTitle().equalsIgnoreCase(expectedTitle);
+#     }
+#
+#
+# System.out.println("Title Of the webpage = " +Title);
+# assertEquals("WhizTrial registration",Title);
+#
+#
+# boolean result = nav.isUserLoggedIn();
+#         CheckPoint.markFinal("test-01", result, "login verification");
+#
+# boolean result = nav.isUserLoggedIn();
+#         CheckPoint.markFinal("test-01", result, "login verification");
+#
+# //===========================================================================//
+#
+#  private String URL = "query=";
+#     private String COURSES_LIST = "//div[@class='course-listing']";
+#
+#     /***
+#      * Methods
+#      */
+#     public boolean isOpen() {
+#         return driver.getCurrentUrl().contains(URL);
+#     }
+#
+#     public int coursesCount() {
+#         List<WebElement> coursesList = driver.findElements(By.xpath(COURSES_LIST));
+#         return coursesList.size();
+#     }
+#
+# ===========================================================================
+#     public boolean isOpen() {
+#          return URL.equalsIgnoreCase(driver.getCurrentUrl());
+#     }
+#
+# ===========================================================================
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#

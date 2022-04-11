@@ -1,0 +1,170 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20312531699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "user should be able to Register with valid credentials",
+        "description": "",
+        "id": "verification-of-registration-functionality;user-should-be-able-to-register-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 3217453100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownAndScreenshotOnFailure(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5476523800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on landing page",
+            "match": {
+              "location": "RegistrationSteps.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1962623200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks the Register link",
+            "match": {
+              "location": "RegistrationSteps.user_clicks_the_Register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 983267299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies create account page",
+            "match": {
+              "location": "RegistrationSteps.user_verifies_create_account_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3235901000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters all the requested personal Address and company details",
+            "match": {
+              "location": "RegistrationSteps.user_enters_all_the_requested_personal_Address_and_company_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2563692800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on create account button",
+            "match": {
+              "location": "RegistrationSteps.user_clicks_on_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 547578400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user gets confirmation message",
+            "match": {
+              "location": "RegistrationSteps.user_gets_confirmation_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 385216599,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Continue Shipping button",
+            "match": {
+              "location": "RegistrationSteps.user_clicks_on_Continue_Shipping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2338273801,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user successfully created and login into new account",
+            "match": {
+              "location": "RegistrationSteps.user_successfully_created_and_login_into_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4403619400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on SignOut button at the top-right edge",
+            "match": {
+              "location": "RegistrationSteps.userClicksOnSignOutButtonAtThTopRightEdge()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143224099,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is back to login page and successfully logout",
+            "match": {
+              "location": "RegistrationSteps.userIsBackToLoginPageAndSuccessfullyLogout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@RegistrationValidcredentials"
+          }
+        ]
+      }
+    ],
+    "name": "Verification of Registration functionality",
+    "description": "",
+    "id": "verification-of-registration-functionality",
+    "keyword": "Feature",
+    "uri": "Registration/Register.feature"
+  }
+]

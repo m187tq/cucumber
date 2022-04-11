@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Master test suite">
+<suite-file path="C:\Users\admin\eclipse-workspace\TestNGMorningBatch\src\batchTesting\SanityTestSuite.xml" />
+<suite-file path="C:\Users\admin\eclipse-workspace\TestNGMorningBatch\src\batchTesting\FunctionalTestSuite.xml" />
+
+</suite>

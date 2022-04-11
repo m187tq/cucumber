@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Funnctional test suite">
+
+	<test name="Funnctionaltest cases">
+		
+		<classes>
+			<class name="batchTesting.PaymentTest" />
+			<class name="batchTesting.PaymentReturns" />
+		
+		</classes>
+
+	</test>
+
+</suite>
